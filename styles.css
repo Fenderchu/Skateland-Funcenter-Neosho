@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.nav-item{
+    display: inline;
+    color: white;
+}
+
+a :active, a:hover, a :before, a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 6vw;
+}
+.navbar-nav{
+    text-align: center;
+    padding: 0%;
+}
+.navbar-brand{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.container-fluid{
+    padding-right: 5px;
+    padding-left: 5px;
+}
