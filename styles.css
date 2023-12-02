@@ -13,8 +13,8 @@ a :active, a:hover, a :before, a{
     color: white;
     text-decoration: none;
     text-align: center;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 .navbar-nav{
     text-align: center;
@@ -23,6 +23,12 @@ a :active, a:hover, a :before, a{
 .navbar-brand{
     padding-bottom: 10px;
     text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 40pt;
+    font-weight: 500pt;
+    font-style: italic;
+
 }
 .navbar{
     justify-content: center;
@@ -39,20 +45,48 @@ a :active, a:hover, a :before, a{
 }
 
 .header{
-    padding-top: 10px;
-    justify-content: center;
-    align-items: center;
-}
-#home{
     height: 200px;
-    background-image: url("placeholder.jpg");
+    padding-top: 10px;
     background-color: rgb(78, 78, 78);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     color: black;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 20pt;
+    font-weight: 500pt;
     
+}
+#home{
+    background-image: url("placeholder.jpg");    
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    background-image: url("placeholder.jpg");
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#about{
+    background-image: url("placeholder.jpg");
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#parties{
+    background-image: url("placeholder.jpg");
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#contact .header-title, .header-sub {
+    margin: 0%;
 }
 .header{
     text-align: center;
