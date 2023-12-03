@@ -15,6 +15,8 @@ a :active, a:hover, a :before, a{
     text-align: center;
     padding-left: 5vw;
     padding-right: 5vw;
+    text-shadow: -1px -1px 10px rgb(47, 0, 255) ;
+    border: none;
 }
 .navbar-nav{
     text-align: center;
@@ -26,19 +28,23 @@ a :active, a:hover, a :before, a{
     font-family: 'Great Vibes', cursive;
     font-family: 'Monomaniac One', sans-serif;
     font-size: 40pt;
-    font-weight: 500pt;
     font-style: italic;
-
+    border: solid;
+    border-color: rgb(128, 209, 128);
+    box-shadow: 0px 0px 75px rgb(0, 255, 0);
 }
 .navbar{
     justify-content: center;
 }
-.container-fluid{
+
+
+[class*="container-fluid"]{
     display: flex;
     padding-right: 5px;
     padding-left: 5px;
+    justify-content: center;
 }
-.container-wide{
+[class*="container-wide"]{
     display: flex;
     padding: 0%;
     margin: 0%;
@@ -88,6 +94,83 @@ a :active, a:hover, a :before, a{
 #contact .header-title, .header-sub {
     margin: 0%;
 }
+.home-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.card{
+    text-align: center;
+    width: 90%;
+    padding: 5%;
+    margin: 5%;
+    border: solid;
+}
+.card-title{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Monomaniac One', sans-serif;
+    font-style: italic;
+}
+.Schedule, td{
+    text-align: start;
+    border: solid
+}   
+th{
+    border-right: solid;
+    border-left: solid;
+}
+th, td{
+    width:10%;
+    padding: 2%;
+}
+.Schedule, .Schedule th,.Schedule td, .card-schedule{
+    border-width: 3pt;
+    border-color: rgb(212, 154, 154);
+    box-shadow: 0px 0px 50px red;
+}
+
 .header{
     text-align: center;
+}
+
+form{
+    width: 100%;
+    flex-direction: column;
+    padding: 5%;
+    margin: 5%;
+    border: solid;
+    border-color: rgb(193, 154, 231);
+    box-shadow: 0px 0px 100px blueviolet;
+
+}
+form input{
+    max-width: 50%;
+    background-color: black;
+    border-color: rgb(174, 114, 231);
+    box-shadow: 2px 2px 20px blueviolet;
+}
+.checkbox{
+    list-style: none;
+    flex-flow: start;
+    padding: 0%;
+    margin-top: 5px;
+    
+}
+form button{
+    width: 20%;
+    background-color: black;
+    color: white;
+    border-color: rgb(174, 114, 231);
+    box-shadow: 2px 2px 20px blueviolet;
+}
+form p{
+    margin: 0%;
+}
+
+@media screen and (max-width: 450px)  {
+    .navbar-brand{
+        font-size: 30pt;
+    }
 }
