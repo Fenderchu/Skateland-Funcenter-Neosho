@@ -2,6 +2,9 @@ body{
     background-color: black;
     color: rgb(255, 255, 255);
     margin: 0%;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Monomaniac One', sans-serif;
+    font-weight: bolder;
 }
 .nav-item{
     display: inline;
@@ -24,6 +27,7 @@ body{
 }
 .navbar-brand{
     padding-bottom: 10px;
+    margin-top: 10px;
     text-align: center;
     font-family: 'Great Vibes', cursive;
     font-family: 'Monomaniac One', sans-serif;
@@ -34,6 +38,11 @@ body{
 }
 .navbar{
     justify-content: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    border-bottom: solid blue;
+    box-shadow: 0px 0px 20px rgb(84, 84, 255);
 }
 
 
@@ -67,6 +76,8 @@ body{
     font-family: 'Monomaniac One', sans-serif;
     font-size: 20pt;
     font-weight: 500pt;
+    padding-top: 175px;
+    background-clip: content-box;
     
 }
 #home{
@@ -146,6 +157,7 @@ form{
     margin: 5%;
     border: solid;
     display: inline;
+    font-size: 15pt;
 
 }
 form input{
@@ -167,9 +179,12 @@ form button{
 form p{
     margin: 0%;
 }
+.thanks{
+    padding-top: 150px;
+}
 .box-shadow-red{
     border-color: rgb(248, 126, 126);
-    box-shadow: 0px 0px 15px red;
+    box-shadow: 0px 0px 15px rgb(255, 0, 0);
 }
 .box-shadow-green{
     border-color: greenyellow;
@@ -213,15 +228,84 @@ form p{
 .social-media{
     font-size: 20pt;
 }
+.footer{
+    flex-direction: row;
+    background-color: rgb(28, 27, 27);
+    min-height: fit-content;
+    height: 300px;
+    text-align: center;
+    justify-content: space-around;
+}
+.about-cont {
+    display: block;
+    justify-content: center;
+}
+.about-cont .card {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 2%;
+}
+.float-end{
+    align-self: flex-end;
+}
+.float-start{
+    align-self: flex-start;
+}
+.about-cont .card img{
+    width: 35vw;
+    padding: 10px;
+}
 
-@media screen and (max-width: 665px)  {
+.about-cont .card p{
+    width: 90%;
+    text-align: left;
+    font-size: 15pt;
+    height: fit-content;
+    padding: 5%;
+    margin: 10px;
+
+}
+
+
+@media screen and (max-width: 700px)  {
     .navbar-brand{
         font-size: 30pt;
     }
     .social-media{
-        font-size: 12pt;
+        font-size: 15pt;
     }
     .header-title{
         font-size: 30pt;
     }
+    .footer{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .header{
+        padding-top: 150px;
+    }
+    .about-cont .card p{
+        font-size: 13pt;
+    
+    }
+}
+@media screen and (max-width: 550px)  {
+
+    .social-media{
+        font-size: 12pt;
+    }
+    .navbar{
+        position: relative;
+    }
+    .header{
+        padding-top: 10px;
+    }
+    .thanks{
+        padding-top: 0px;
+    }
+    .about-cont .card p{
+        font-size: 10pt;
+    
+    }
+
 }
