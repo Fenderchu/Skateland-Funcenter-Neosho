@@ -24,6 +24,7 @@ body{
 .navbar-nav{
     text-align: center;
     padding: 0%;
+    font-weight: 100;
 }
 .navbar-brand{
     padding-bottom: 10px;
@@ -130,7 +131,8 @@ body{
 }
 .Schedule, td{
     text-align: start;
-    border: solid
+    border: solid;
+    font-weight: 100;
 }   
 th{
     border-right: solid;
@@ -140,12 +142,16 @@ th, td{
     width:10%;
     padding: 2%;
 }
+
 .Schedule, .Schedule th,.Schedule td, .card-schedule{
     border-width: 3pt;
-    border-color: rgb(212, 154, 154);
-    box-shadow: 0px 0px 50px red;
+    border-color: rgb(215, 143, 143);
+    box-shadow: 0px 0px 25px red;
 }
-
+.Schedule{
+    margin-left: auto;
+    margin-right: auto;
+}
 .header{
     text-align: center;
 }
@@ -158,6 +164,7 @@ form{
     border: solid;
     display: inline;
     font-size: 15pt;
+    font-weight:lighter;
 
 }
 form input{
@@ -177,20 +184,25 @@ form button{
     color: white;
 }
 form p{
+    
     margin: 0%;
 }
 .thanks{
     padding-top: 150px;
 }
 .box-shadow-red{
+    border: solid;
     border-color: rgb(248, 126, 126);
     box-shadow: 0px 0px 15px rgb(255, 0, 0);
 }
 .box-shadow-green{
+    border: solid;
     border-color: greenyellow;
     box-shadow: 0px 0px 15px rgb(0, 255, 8);
+
 }
 .box-shadow-blue{
+    border: solid;
     border-color: rgb(83, 78, 230);
     box-shadow: 0px 0px 15px rgb(25, 0, 255);
 }
@@ -235,6 +247,10 @@ form p{
     height: 300px;
     text-align: center;
     justify-content: space-around;
+    font-weight: 100;
+}
+.footer a{
+    color: rgb(255, 255, 255);
 }
 .about-cont {
     display: block;
