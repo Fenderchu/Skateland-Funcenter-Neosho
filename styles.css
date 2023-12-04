@@ -8,7 +8,7 @@ body{
     color: white;
 }
 
-a :active, a:hover, a :before, a{
+.nav-item a :active, .nav-item a:hover, .nav-item a :before, .nav-item a{
     display: inline;
     color: white;
     text-decoration: none;
@@ -30,8 +30,7 @@ a :active, a:hover, a :before, a{
     font-size: 40pt;
     font-style: italic;
     border: solid;
-    border-color: rgb(128, 209, 128);
-    box-shadow: 0px 0px 75px rgb(0, 255, 0);
+
 }
 .navbar{
     justify-content: center;
@@ -48,6 +47,11 @@ a :active, a:hover, a :before, a{
     display: flex;
     padding: 0%;
     margin: 0%;
+}
+
+.body{
+    flex-direction: column;
+    align-items: center;
 }
 
 .header{
@@ -103,7 +107,7 @@ a :active, a:hover, a :before, a{
 }
 .card{
     text-align: center;
-    width: 90%;
+    width: 80vw;
     padding: 5%;
     margin: 5%;
     border: solid;
@@ -136,20 +140,17 @@ th, td{
 }
 
 form{
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     padding: 5%;
     margin: 5%;
     border: solid;
-    border-color: rgb(193, 154, 231);
-    box-shadow: 0px 0px 100px blueviolet;
+    display: inline;
 
 }
 form input{
     max-width: 50%;
     background-color: black;
-    border-color: rgb(174, 114, 231);
-    box-shadow: 2px 2px 20px blueviolet;
 }
 .checkbox{
     list-style: none;
@@ -162,15 +163,65 @@ form button{
     width: 20%;
     background-color: black;
     color: white;
-    border-color: rgb(174, 114, 231);
-    box-shadow: 2px 2px 20px blueviolet;
 }
 form p{
     margin: 0%;
 }
+.box-shadow-red{
+    border-color: rgb(248, 126, 126);
+    box-shadow: 0px 0px 15px red;
+}
+.box-shadow-green{
+    border-color: greenyellow;
+    box-shadow: 0px 0px 15px rgb(0, 255, 8);
+}
+.box-shadow-blue{
+    border-color: rgb(83, 78, 230);
+    box-shadow: 0px 0px 15px rgb(25, 0, 255);
+}
+.no-border{
+    border: none;
+}
+.aligne-start{
+    text-align: start;
+}
+.no-style{
+    list-style: none;
+    color: white;
+    padding: 0%;
+}
+.invisible{
+    display: none;
+}
+.aligne-center{
+    text-align: center;
+}
+.aligne-end{
+    text-align: right;
+}
+.gmap{
+    float: right;
+    width: 40vw;
+    height: 40vw;
+    margin: 0%;
+    margin-left: 0%;
+}
+.icon{
+    height: 25px;
 
-@media screen and (max-width: 450px)  {
+}
+.social-media{
+    font-size: 20pt;
+}
+
+@media screen and (max-width: 665px)  {
     .navbar-brand{
+        font-size: 30pt;
+    }
+    .social-media{
+        font-size: 12pt;
+    }
+    .header-title{
         font-size: 30pt;
     }
 }
