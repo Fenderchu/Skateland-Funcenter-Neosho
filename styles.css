@@ -5,6 +5,7 @@ body{
     font-family: 'Great Vibes', cursive;
     font-family: 'Monomaniac One', sans-serif;
     font-weight: bold;
+    
 }
 .nav-item{
     display: inline;
@@ -194,17 +195,20 @@ form p{
     border: solid;
     border-color: rgb(248, 126, 126);
     box-shadow: 0px 0px 15px rgb(255, 0, 0);
+    border-radius: 10px;
 }
 .box-shadow-green{
     border: solid;
     border-color: greenyellow;
     box-shadow: 0px 0px 15px rgb(0, 255, 8);
+    border-radius: 10px;
 
 }
 .box-shadow-blue{
     border: solid;
     border-color: rgb(83, 78, 230);
     box-shadow: 0px 0px 15px rgb(25, 0, 255);
+    border-radius: 10px;
 }
 .no-border{
     border: none;
