@@ -17,8 +17,8 @@ body{
     color: white;
     text-decoration: none;
     text-align: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
     text-shadow: -1px -1px 10px rgb(47, 0, 255) ;
     border: none;
 }
@@ -68,41 +68,49 @@ body{
 .header{
     height: 200px;
     padding-top: 10px;
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(145, 145, 145);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: darken;
-    color: black;
+    background-blend-mode: multiply;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
     font-family: 'Great Vibes', cursive;
     font-family: 'Monomaniac One', sans-serif;
     font-size: 20pt;
     font-weight: 500pt;
-    padding-top: 175px;
-    background-clip: content-box;
+    padding-top: 300px;
+    background-clip: padding-box;
     
 }
 #home{
-    background-image: url("placeholder.jpg");    
+    background-image: url("Skates2.jpg");    
     justify-content: center;
     align-items: center;
 }
 #contact{
-    background-image: url("placeholder.jpg");
+    background-image: url("Skates.jpg");
+
     align-items: center;
     justify-content: center;
     flex-direction: column;
     
 }
+#FAQ{
+    background-image: url("SkatelandSign.jpg");
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 #about{
-    background-image: url("placeholder.jpg");
+    background-image: url("NeoshoSkateland.jpg");
     align-items: center;
     justify-content: center;
     flex-direction: column;
     
 }
 #parties{
-    background-image: url("placeholder.jpg");
+    background-image: url("Rink1.jpg");
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -157,7 +165,7 @@ th, td{
 .header{
     text-align: center;
 }
-
+/**
 form{
     width: 90%;
     flex-direction: column;
@@ -189,8 +197,14 @@ form p{
     
     margin: 0%;
 }
+
 .thanks{
     padding-top: 150px;
+}
+**/
+.contact-box{
+    margin: 20px;
+    font-size: large;
 }
 .box-shadow-red{
     border: solid;
@@ -249,13 +263,21 @@ form p{
     flex-direction: row;
     background-color: rgb(28, 27, 27);
     min-height: fit-content;
-    height: 300px;
+
     text-align: center;
     justify-content: space-around;
     font-weight: 100;
 }
 .footer a{
     color: rgb(255, 255, 255);
+}
+.footer div{
+    min-width: 175px;
+    max-height: 150px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .about-cont {
     display: block;
@@ -292,7 +314,7 @@ form p{
     .navbar-brand{
         font-size: 30pt;
     }
-    .social-media{
+    .social-media, .contact-box{
         font-size: 15pt;
     }
     .header-title{
@@ -312,7 +334,7 @@ form p{
 }
 @media screen and (max-width: 550px)  {
 
-    .social-media{
+    .social-media, .contact-box{
         font-size: 12pt;
     }
     .navbar{
