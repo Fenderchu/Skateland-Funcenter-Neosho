@@ -78,7 +78,7 @@ body{
     font-family: 'Great Vibes', cursive;
     font-family: 'Monomaniac One', sans-serif;
     font-size: 20pt;
-    font-weight: 500pt;
+    font-weight: 500;
     padding-top: 300px;
     background-clip: padding-box;
     
@@ -164,6 +164,20 @@ th, td{
 }
 .header{
     text-align: center;
+}
+.parties{
+    flex-direction: row;
+    align-items: start;
+}
+.party-card{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+    height:80vh;
+}
+.party-body, .party-sub{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
 }
 /**
 form{
@@ -282,11 +296,18 @@ form p{
 .about-cont {
     display: block;
     justify-content: center;
+
 }
 .about-cont .card {
     margin-top: 0%;
     margin-bottom: 0%;
     padding: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.about-cont img{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .float-end{
     align-self: flex-end;
@@ -330,6 +351,12 @@ form p{
     .about-cont .card p{
         font-size: 13pt;
     
+    }
+    .parties{
+        flex-direction: column;
+    }
+    .party-card{
+        height: 50%;
     }
 }
 @media screen and (max-width: 550px)  {
