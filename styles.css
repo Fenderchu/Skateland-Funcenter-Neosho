@@ -354,7 +354,12 @@ form p{
     margin: 10px;
 
 }
-
+.extra{
+    flex-direction: column;
+}
+.img-small{
+    width: 300px;
+}
 
 @media screen and (max-width: 700px)  {
     .navbar-brand{
@@ -382,6 +387,7 @@ form p{
     }
     .parties{
         flex-direction: column;
+        align-items: center;
     }
     .party-card{
         height: 50%;
