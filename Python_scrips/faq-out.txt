@@ -1,0 +1,33 @@
+<div class="faq-body"><br>
+Most asked questions<br>
+Refer to flyer questions:<br>
+1.) What are private and public party prices?<br>
+2.) What are your hours and prices?<br>
+3.) May I bring in outside food or drinks?<br>
+Questions that are not on the flyers:<br>
+<p class="faq-body-sub">Question 1:<br> How much are inlines and speed skates? <br>
+Answer 1:<br> $3.00</p><br>
+<p class="faq-body-sub">Question 2:<br> How much are skatemates? <br>
+Answer 2:<br> $4.00</p><br>
+<p class="faq-body-sub">Question 3:<br> What forms of payment do you take? <br>
+Answer 3:<br> We take cash, checks, and card or apple pay. Using a card or apple pay does have a small service charge.</p><br>
+<p class="faq-body-sub">Question 4:<br> How far in advance do I need to book a party? <br>
+Answer 4:<br> Most public parties may be booked within 2 weeks of the party date. Private parties need to be booked at least 2 months in advance. This allows you to choose the date you were wanting. Private parties are much more limited and book up much quicker.</p><br>
+<p class="faq-body-sub">Question 5:<br> May I walk on the floor with my child? <br>
+Answer 5:<br> Yes, but stay by the wall at all times.</p><br>
+<p class="faq-body-sub">Question 6:<br> May I request a song? <br>
+Answer 6:<br> Yes, only if it is appropriate.</p><br>
+<p class="faq-body-sub">Question 7:<br> May I bring in my own skates? <br>
+Answer 7:<br> Yes. We must check them to make sure they are safe for our skate floor.</p><br>
+<p class="faq-body-sub">Question 8:<br> May I come in without paying? <br>
+Answer 8:<br>If you are younger than 18 without a guardian staying, then you must pay. If you are 18 or older or have a guardian staying, then you do not have to pay.</p><br>
+<p class="faq-body-sub">Question 9:<br> May I step outside? <br>
+Answer 9:<br> We do not allow anyone under the age of 18 outside our doors unless they drove here and are leaving. If you a smoke break, you must be at least the legal age of 21. No skates may be worn outside even if they belong to you.</p><br>
+<p class="faq-body-sub">Question 10:<br>)May I use this free or BOGO skate pass? <br>
+Answer 10:<br> On our normal operating hours you may. If we have a special session, we do not accept any passes.</p><br>
+<p class="faq-body-sub">Question 11:<br>) Do you do school, home school, church skates? <br>
+Answer 11:<br> We can, those would have to be booked with Cathy by whoever oversees the event. These are different costs depending on what is or is not included.</p><br>
+<p class="faq-body-sub">Question 12:<br>) How long have you been in business? <br>
+Answer 12:<br> The building was built in 1988 and was open on Friday, January 13th or</p><br>
+1989.<br>
+</div>

@@ -81,7 +81,13 @@ body{
     font-weight: 500;
     padding-top: 300px;
     background-clip: padding-box;
+    align-items: center;
+    justify-content: center;
     
+}
+.header h1{
+    font-size: 50pt;
+    margin-bottom: 25%;
 }
 #home{
     background-image: url("Skates2.jpg");    
@@ -98,6 +104,7 @@ body{
 }
 #FAQ{
     background-image: url("SkatelandSign.jpg");
+
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -178,6 +185,24 @@ th, td{
 .party-body, .party-sub{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+}
+
+.faq{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:15px;
+    margin-top: 30px;
+}
+.faq-head{
+    font-size: 40pt;
+}
+.faq-body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.faq-body-sub{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 /**
 form{
@@ -348,6 +373,9 @@ form p{
     .header{
         padding-top: 150px;
     }
+    .header h1{
+        margin: auto;
+    }
     .about-cont .card p{
         font-size: 13pt;
     
@@ -369,6 +397,9 @@ form p{
     }
     .header{
         padding-top: 10px;
+    }
+    .header h1{
+        font-size: 40pt;
     }
     .thanks{
         padding-top: 0px;
